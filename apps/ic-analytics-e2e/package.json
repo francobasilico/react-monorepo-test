@@ -1,0 +1,10 @@
+{
+  "name": "@xps/ic-analytics-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@xps/ic-analytics"
+    ]
+  }
+}
