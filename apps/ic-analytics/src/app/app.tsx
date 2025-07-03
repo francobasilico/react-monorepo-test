@@ -1,11 +1,13 @@
-import { XpsUi } from '@xps/ui';
 import { Route, Routes, Link } from 'react-router-dom';
+import { cn } from '@xps/utils';
+import { Button } from '@xps/ui';
 
 export function App() {
+  const asd = 'text-green-500';
   return (
     <div>
-      <div className="text-red-500">franco</div>
-      <XpsUi />
+      <div className={cn(asd, 'text-violet-500')}>franco</div>
+      <Button>franco</Button>
       <Routes>
         <Route
           path="/"
