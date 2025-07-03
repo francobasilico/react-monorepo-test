@@ -1,8 +1,11 @@
+import { XpsUi } from '@xps/ui';
 import { Route, Routes, Link } from 'react-router-dom';
 
 export function App() {
   return (
     <div>
+      <div className="text-red-500">franco</div>
+      <XpsUi />
       <Routes>
         <Route
           path="/"
